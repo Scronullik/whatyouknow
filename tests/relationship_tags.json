@@ -1,0 +1,82 @@
+{
+  "general": ["Corporate blog","" ],
+  "type_programming": [
+    "Programming",
+    "Industrial Programming",
+    "Information Security",
+    "Abnormal programming",
+    "System Programming",
+    "Game development",
+    "Development for Android",
+    "Development for Linux",
+    "Big Data",
+    "FPGA"
+  ],
+  "extra_type_programming": {
+    "Development for Linux": "System Programming",
+    "System Programming": "Programming microcontrollers"
+  },
+
+  "programming": ["Open source", "Information Security","Designing and refactoring", "API", "Algorithms", "Data storages", "DevOps", "SQL", "NoSQL"],
+  "tools": [
+    "Xamarin",
+    "Unity3D",
+    "VueJS",
+    "ReactJS",
+    "Django framework",
+    "Django REST Framework",
+    "Flask"
+  ],
+  "hosting_services": [
+    "Google App Engine"
+  ],
+  "HTTP Servers": [
+    "Apache",
+    "Nginx"
+  ],
+  "Administrating": [
+    "System administration",
+    "Network technologies",
+    "Network hardware",
+    "IT systems testing",
+    "IT Infrastructure",
+    "Systems engineering",
+    "Database Administration",
+    "DevOps"
+  ],
+  "VCS": [
+    "Git",
+    "Mercurial",
+    "Subversion"
+  ],
+  "languages": [
+    "Java",
+    "Kotlin",
+    "JavaScript",
+    "C++",
+    "C",
+    "Cobol",
+    "Python",
+    "C#",
+    "F#",
+    "Go",
+    "Haskel",
+    "Php",
+    "Ruby",
+    "Rust"],
+  "DBMS": [
+    "MongoDB",
+    "SQLite",
+    "PostgreSQL",
+    "MySQL"
+  ],
+  "IDE": ["PyCharm", "PhpStorm", "WebStorm", "Rider", "CLion", "GoLand", "Visual Studio", "VSCode"],
+  "text_editors": ["vim", "Sublime Text", "Notepad++", "Atom"],
+  "relations" : {
+    "NoSQL": ["MongoDB"],
+    "SQL": ["SQLite", "PostgreSQL", "MySQL"],
+    ".NET": ["C#", "F#"],
+    "C#": [".NET", "Visual Studio", "Rider", "VSCode"],
+    "Python": ["PyCharm", "VSCode"]
+  }
+}
